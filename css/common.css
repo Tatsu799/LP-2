@@ -89,19 +89,16 @@ header .drawer {
 }
 
 .ttl__1 {
-  display: block;
+  display: inline-block;
   width: 100%;
   font-size: 2.5rem;
   font-weight: 800;
-}
-
-.ttl__1 p {
   padding: 0.5rem;
   background: linear-gradient(to right, rgba(29, 40, 77, 0.92), rgba(29, 40, 77, 0.41));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 7px 5px 2px rgba(0,0,0,0.1);
+  text-shadow: 7px 5px 2px rgba(0, 0, 0, 0.1);
 }
 
 small {
