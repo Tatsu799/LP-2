@@ -486,9 +486,6 @@ small {
     display: inline-block;
     font-size: 2.5rem;
     font-weight: 800;
-  }
-
-  .ttl__1 p {
     padding: 0.4rem;
     background: linear-gradient(to right, rgba(29, 40, 77, 0.92), rgba(29, 40, 77, 0.41));
     background-clip: text;
@@ -673,7 +670,6 @@ small {
     width: 65%;
   }
 
-
   body.nav-open header .drawer {
     border-top: 0;
   }
@@ -701,24 +697,11 @@ small {
     font-weight: 800;
   }
 
-  .ttl__1 p {
-    padding: unset;
-  }
-
   small {
     width: 100%;
     display: inline-block;
     font-size: 0.9rem;
     font-weight: normal;
-  }
-
-  .top-wrapper__block__left__txt {
-    font-size: 0.9rem;
-    display: inline-block;
-    text-align: left;
-    position: relative;
-    top: -2.5rem;
-    left: 2.5rem;
   }
 
   .top-wrapper__block__left__dw {
@@ -734,9 +717,17 @@ small {
     padding: 1rem;
   }
 
-  
-  .top-wrapper__block__right__img {
-    width: 25rem;
+  .top-wrapper__block__left__txt {
+    font-size: 0.9rem;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    top: -2.5rem;
+    left: 2.5rem;
+  }
+
+  .top-wrapper__block__right {
+    width: 100%;
     margin: unset;
   }
   
@@ -825,6 +816,7 @@ small {
     margin: 1rem 1rem;
     background-color: #1CB6F1;
     font-weight: bold;
+    
   }
 
   .news-wrapper__con__list__item small {
@@ -1007,9 +999,6 @@ small {
     width: 100%;
     font-size: 1.8rem;
     font-weight: 900;
-  }
-
-  .ttl__1 p {
     padding: unset;
   }
 
@@ -1101,7 +1090,7 @@ small {
 
   .news-wrapper__con__list__item span {
     width: 16%;
-    padding: unset;
+    padding: 0.4rem;
     margin: unset;
   }
 
